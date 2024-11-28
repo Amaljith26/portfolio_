@@ -3932,6 +3932,20 @@ td:last-child {
 	.s-intro__scroll-down span {
 		display: none;
 	}
+	.s-intro__content-media img {
+		width: 100%;
+		height: auto;
+		object-fit: cover; /* Ensures the image scales correctly while maintaining its aspect ratio */
+		width: 100%;
+		max-width: 100%;
+	
+	}
+	.s-intro__content-media {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
 }
 
 
